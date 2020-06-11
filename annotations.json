@@ -1,6 +1,6 @@
 {
        "@context":"http://iiif.io/api/presentation/2/context.json",
-       "@id":"http://localhost:8887/annotations.json",
+       "@id":"https://everreau.github.io/annotations.json",
        "@type":"sc:AnnotationList",
        "resources":
 [ {
