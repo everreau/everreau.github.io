@@ -1,0 +1,69 @@
+{
+	"@context": "http://iiif.io/api/presentation/2/context.json",
+	"@id": "http://d6e8ba33-b406-4b22-8aed-a7d4dd661236",
+	"@type": "sc:Manifest",
+	"label": "Aerial Views, Chicago, IL",
+	"metadata": [],
+	"description": [
+		{
+			"@value": "Aerial Views of Chicago from 2001",
+			"@language": "en"
+		}
+	],
+	"license": "https://creativecommons.org/licenses/by-nc/4.0/",
+	"attribution": "University of Illinois at Chicago",
+	"sequences": [
+		{
+			"@id": "http://149fdce0-8d4e-4b0c-b301-972ec6ba47fe",
+			"@type": "sc:Sequence",
+			"label": [
+				{
+					"@value": "Normal Sequence",
+					"@language": "en"
+				}
+			],
+			"canvases": [
+				{
+					"@id": "http://e43e4451-359d-4790-a6aa-3ef7387d46af",
+					"@type": "sc:Canvas",
+					"label": "Aerial View West Loop, Chicago, IL",
+					"height": 15062,
+				        "width": 15925,
+ 				        "viewingHint": "non-paged",
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://2dc8c540-433a-4141-b983-b90d93c72491",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://iiif.archivelab.org/iiif/caps-2001-01100-r-251-01-08741/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://iiif.archivelab.org/iiif/caps-2001-01100-r-251-01-08741",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json"
+									]
+								},
+								"height": 15062,
+								"width": 15925
+							},
+							"on": "http://e43e4451-359d-4790-a6aa-3ef7387d46af"
+						}
+					],
+				        "otherContent": [
+                                                {
+                                                        "@id": "http://localhost:8887/annotations.json",
+                                                        "@type": "sc:AnnotationList",
+                                                        "label": "My fantastic annotations"
+                                                }
+					],
+					"related": ""
+				}
+			]
+		}
+	],
+	"structures": []
+}
